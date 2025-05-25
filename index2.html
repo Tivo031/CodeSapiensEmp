@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeSapiens | Consultoría Tecnológica</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FF1B50',
+            black: '#000000',
+            white: '#ffffff'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-black">
+  <nav class="bg-white shadow-md px-6 py-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="CODE SAPIENS CONSULTORIA.png" alt="Logo CodeSapiens" class="w-60 h-auto">
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#quienes" class="text-black font-semibold hover:text-primary transition">Quiénes Somos</a>
+        <a href="#mision" class="text-black font-semibold hover:text-primary transition">Misión y Visión</a>
+        <a href="#servicios" class="text-black font-semibold hover:text-primary transition">Servicios</a>
+        <a href="#contacto" class="text-black font-semibold hover:text-primary transition">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="relative bg-cover bg-center h-[500px] flex flex-col items-center justify-center text-center" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80');">
+  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+  <div class="relative z-10 max-w-2xl px-4 flex flex-col items-center">
+    <img src="blanco.png" alt="Logo CodeSapiens" class="w-60 h-auto mb-6">
+    <h1 class="text-4xl md:text-5xl font-bold text-white">Evolucionamos tu software</h1>
+    <h2 class="text-lg md:text-xl text-white mt-4">Potenciamos tu negocio</h2>
+  </div>
+</header>
+
+
+  <main class="max-w-6xl mx-auto px-6 py-10 space-y-16">
+    <section id="quienes">
+      <h2 class="text-3xl font-bold text-primary mb-4">Quiénes Somos</h2>
+      <p>CodeSapiens es una consultora tecnológica que transforma ideas en soluciones digitales. Creamos software a medida, automatizamos procesos e integramos sistemas con un enfoque centrado en la innovación y el usuario.</p>
+    </section>
+
+    <section id="mision" class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white rounded-xl shadow-md text-center p-8">
+        <img src="automatizacion (1).png" alt="Misión" class="mx-auto h-16 mb-4">
+        <h3 class="text-xl font-bold text-black mb-2">Misión</h3>
+        <p>Brindar soluciones de software innovadoras que optimicen los procesos de nuestros clientes y fortalezcan su presencia digital.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md text-center p-8">
+        <img src="vision (1).png" alt="Visión" class="mx-auto h-16 mb-4">
+        <h3 class="text-xl font-bold text-black mb-2">Visión</h3>
+        <p>Ser una empresa referente en el desarrollo de soluciones tecnológicas con inteligencia artificial y automatización.</p>
+      </div>
+    </section>
+
+    <section id="valores">
+      <h2 class="text-3xl font-bold text-primary mb-6 text-center">Nuestros Valores</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
+        <li class="bg-white shadow-md p-4 border-l-4 border-primary font-medium">Innovación: Exploramos nuevas tecnologías para garantizar soluciones vanguardistas.</li>
+        <li class="bg-white shadow-md p-4 border-l-4 border-primary font-medium">Compromiso: Nos involucramos en cada proyecto como si fuera nuestro.</li>
+        <li class="bg-white shadow-md p-4 border-l-4 border-primary font-medium">Excelencia: Buscamos la calidad en cada solución que entregamos.</li>
+        <li class="bg-white shadow-md p-4 border-l-4 border-primary font-medium">Transparencia: Comunicación clara y honesta con nuestros clientes.</li>
+        <li class="bg-white shadow-md p-4 border-l-4 border-primary font-medium">Adaptabilidad: Nos ajustamos a las necesidades cambiantes del mercado y de nuestros clientes.</li>
+        <li class="bg-white shadow-md p-4 border-l-4 border-primary font-medium">Seguridad Digital: Protegemos la integridad de los datos y la infraestructura tecnológica de nuestros clientes.</li>
+      </ul>
+    </section>
+
+    <section id="servicios">
+      <h2 class="text-3xl font-bold text-primary mb-8 text-center">Nuestros Servicios</h2>
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-white border border-black shadow-lg rounded-lg overflow-hidden">
+          <img src="medida.png" alt="Software a medida" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-black mb-2">Desarrollo de Software a Medida</h3>
+            <p class="text-sm text-gray-700">Soluciones personalizadas que se adaptan a las necesidades específicas de tu empresa.</p>
+          </div>
+        </div>
+        <div class="bg-white border border-black shadow-lg rounded-lg overflow-hidden">
+          <img src="la-transformacion-digital.webp" alt="Transformación Digital" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-black mb-2">Consultoría en Transformación Digital</h3>
+            <p class="text-sm text-gray-700">Te guiamos en el proceso de digitalización para que tu negocio evolucione con éxito.</p>
+          </div>
+        </div>
+        <div class="bg-white border border-black shadow-lg rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=60" alt="Automatización" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-black mb-2">Automatización de Procesos (RPA)</h3>
+            <p class="text-sm text-gray-700">Automatiza tareas repetitivas y mejora la eficiencia operativa con nuestras soluciones RPA.</p>
+          </div>
+        </div>
+        <div class="bg-white border border-black shadow-lg rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=60" alt="IA y Datos" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-black mb-2">Inteligencia Artificial y Datos</h3>
+            <p class="text-sm text-gray-700">Implementamos IA y análisis de datos para decisiones más inteligentes y automatizadas.</p>
+          </div>
+        </div>
+        <div class="bg-white border border-black shadow-lg rounded-lg overflow-hidden">
+          <img src="ciberseguridad-tec-de-monterrey.jpg" alt="Ciberseguridad" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-black mb-2">Ciberseguridad</h3>
+            <p class="text-sm text-gray-700">Protege tu infraestructura tecnológica y los datos de tu negocio con soluciones robustas.</p>
+          </div>
+        </div>
+        <div class="bg-white border border-black shadow-lg rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=60" alt="Apps y Web" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-black mb-2">Apps y Plataformas Web</h3>
+            <p class="text-sm text-gray-700">Creamos aplicaciones móviles y plataformas web intuitivas y escalables.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-primary text-white text-center py-12 rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold mb-2">Software, Servicios, Soporte y Cursos</h2>
+      <p class="mb-6">Queremos ser su aliado en Soluciones Tecnológicas para tu Plataforma IT</p>
+      <a href="#contacto" class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition">Agende una Cita</a>
+    </section>
+
+    <section id="contacto">
+      <h2 class="text-3xl font-bold text-primary mb-4">Contacto</h2>
+      <form class="bg-white border border-black shadow-md p-6 space-y-4">
+        <input type="text" placeholder="Nombre" required class="w-full border border-gray-300 p-3" />
+        <input type="email" placeholder="Correo electrónico" required class="w-full border border-gray-300 p-3" />
+        <textarea rows="5" placeholder="Mensaje" required class="w-full border border-gray-300 p-3"></textarea>
+        <button type="submit" class="bg-primary text-white px-6 py-3 hover:bg-pink-700">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-black text-white text-center py-6">
+    <p>&copy; 2025 CodeSapiens. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
